@@ -13,7 +13,7 @@ rollup -c scripts/rollup.config.esm.js
 
 # Uglify rollup build
 uglify=`pwd`/node_modules/.bin/uglifyjs
-cd dist
+cd dist/@aorinevo
 
 # We use --mangle but not --compress to reduce file size
 # --compress unfortunately removes the 'imports' from the top of the ESM build

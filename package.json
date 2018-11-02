@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap-vue",
+  "name": "@aorinevo/bootstrap-vue",
   "version": "2.0.0-rc.11",
   "description": "BootstrapVue provides one of the most comprehensive implementations of Bootstrap 4 components and grid system for Vue.js and with extensive and automated WAI-ARIA accessibility markup.",
   "main": "dist/bootstrap-vue.common.js",
@@ -79,6 +79,7 @@
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-istanbul": "^4.1.5",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "clean-css": "^4.1.9",
     "codecov": "^3.0.2",
     "codemirror": "^5.37.0",
@@ -110,9 +111,7 @@
     "rollup-watch": "^4.3.1",
     "standard-version": "^4.3.0",
     "uglify-es": "^3.3.6",
-    "vue-beta": "npm:vue@~2.5.17-beta.0",
     "vue-jest": "^2.1.1",
-    "vue-latest": "npm:vue@~2.5.16",
     "vue-test-utils": "1.0.0-beta.11"
   },
   "jest": {
